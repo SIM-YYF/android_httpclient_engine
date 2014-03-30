@@ -1,27 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.httpclient"
-    android:versionCode="1"
-    android:versionName="1.0" >
-
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="17" />
-
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name="android.httpclient.MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-
-</manifest>
+<?xml version="1.0" encoding="UTF-8"?>
+<updateInfo>
+    <appName>android-autoupdater</appName>
+    <appDescription>android autoupdater</appDescription>
+    <packageName>com.github.snowdream.android.apps.autoupdater</packageName>
+    <versionCode>2</versionCode>
+    <versionName>2.0</versionName>
+    <forceUpdate>false</forceUpdate>
+    <autoUpdate>false</autoUpdate>
+    <apkUrl>https://raw.github.com/snowdream/android-autoupdate/master/docs/test/android-autoupdater-v2.0-release.apk</apkUrl>
+    <updateTips>
+        <default>update tips</default>
+        <en>update tips</en>
+        <zh>升级提示\n1.版本检查\n2.版本维护\n3.版本更新</zh>
+        <zh_CN>升级提示</zh_CN>
+        <zh_TW>升级提示</zh_TW>
+        <zh_HK>升级提示</zh_HK>
+    </updateTips>
+</updateInfo>
